@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Feedback Form</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #f5f5f5;
+        }
+        .form-box{
+            width: 400px;
+            background-color: white;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px gray;
+        }
+        h2{
+            text-align: center;
+            color: darkgreen;
+        }
+        input, textarea, select{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+        input[type="submit"]{
+            background-color: green;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<div class="form-box">
+    <h2>Student Feedback Form</h2>
+    <form>
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name">
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+        <label>Course</label>
+        <select>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.Tech</option>
+        </select>
+        <label>Rate Our Teaching</label><br>
+        <input type="radio" name="rating"> Excellent
+        <input type="radio" name="rating"> Good
+        <input type="radio" name="rating"> Average
+        <br><br>
+        <label>Your Feedback</label>
+        <textarea rows="5"></textarea>
+        <input type="submit" value="Submit Feedback">
+    </form>
+</div>
+</body>
+</html>
