@@ -1,98 +1,63 @@
-# Web Technology Practice
+# Web Technology Practice Repo
 
-This repository contains practice programs and exercises based on fundamental web technologies such as **HTML, CSS, and JavaScript**. The purpose is to understand how websites are structured, styled, connected, and made interactive.
+A hands-on collection of HTML, CSS, JavaScript, and algorithm exercises — built while learning web development, one topic at a time.
 
-## Technologies Used
+## 📁 Structure
 
-* **HTML** — Used to create the structure and content of web pages.
-* **CSS** — Used to style elements, control layouts, and improve the appearance of pages.
-* **JavaScript** — Used to add logic, events, and interactive functionality.
+```
+├── notes/                  # Concept notes, one file per topic
+│   ├── html-notes.md
+│   ├── css-notes.md
+│   ├── javascript-notes.md
+│   ├── json-notes.md
+│   ├── dom-notes.md
+│   └── algorithms-notes.md
+│
+├── projects/                # Hands-on practice projects
+│   ├── login-form/
+│   ├── registration-form/
+│   ├── student-feedback-form/
+│   ├── external-css-page/
+│   ├── frames-page/
+│   └── supermarket-page/
+│
+└── algorithms/               # Algorithm implementations & visualizations
+    ├── sorting/
+    ├── searching/
+    └── misc/
+```
 
-## Practice Topics
+## 📝 Notes
 
-### 1. HTML Page Structure
+Quick-reference notes for each core web technology. Each note follows: **Concept → Syntax → Example → Common Gotchas**.
 
-HTML provides the basic structure of a webpage. It uses elements and tags to organize headings, paragraphs, images, links, lists, tables, and other content.
+| Topic | Link |
+|---|---|
+| HTML | [notes/html-notes.md](./notes/html-notes.md) |
+| CSS | [notes/css-notes.md](./notes/css-notes.md) |
+| JavaScript | [notes/javascript-notes.md](./notes/javascript-notes.md) |
+| JSON | [notes/json-notes.md](./notes/json-notes.md) |
+| DOM | [notes/dom-notes.md](./notes/dom-notes.md) |
+| Algorithms | [notes/algorithms-notes.md](./notes/algorithms-notes.md) |
 
-**Algorithm:**
+## 🛠️ Projects
 
-1. Create the basic HTML document structure.
-2. Add the required elements.
-3. Arrange the content using suitable HTML tags.
-4. Save the file with the `.html` extension.
-5. Open it in a browser and verify the output.
+| Project | Description |
+|---|---|
+| Login Form | HTML + CSS login form with basic styling |
+| Registration Form | Multi-field registration form in HTML |
+| Student Feedback Form | Feedback form with various input types |
+| Web Page Using External CSS | Demonstrates linking external stylesheets |
+| Web Page Using Frames | Classic HTML frames layout |
+| Supermarket Web Page | Multi-section page using internal CSS |
 
-### 2. HTML Forms
+## 🧮 Algorithms
 
-Forms are used to collect information from users, such as names, email addresses, phone numbers, passwords, and other details.
+Implementations and (where possible) visualizations of common algorithms — sorting, searching, and problem-solving exercises.
 
-**Algorithm:**
+## 🚀 Goal
 
-1. Create a form using the `<form>` element.
-2. Add labels and input fields.
-3. Select suitable input types such as text, email, number, or password.
-4. Add a submit button.
-5. Check that the required information can be entered correctly.
+Build a strong, practical foundation in core web technologies while creating a reference I can revisit — and a portfolio that shows consistent, hands-on learning.
 
-### 3. CSS Styling
-
-CSS is used to control the visual appearance of HTML elements. It can change colors, fonts, spacing, borders, sizes, and page layouts.
-
-**Algorithm:**
-
-1. Create the HTML elements that need styling.
-2. Select the elements using CSS selectors.
-3. Apply required properties such as `color`, `font-size`, `margin`, and `padding`.
-4. Use layout properties when required.
-5. Open the webpage and verify the design.
-
-### 4. Connecting Web Pages
-
-Multiple HTML pages can be connected to allow users to navigate between different sections of a website.
-
-**Algorithm:**
-
-1. Create the required HTML pages.
-2. Add an anchor `<a>` element.
-3. Set the `href` attribute to the destination page.
-4. Add meaningful link text.
-5. Test the link and confirm that it opens the correct page.
-
-### 5. Semantic and Non-Semantic HTML
-
-Semantic elements describe the purpose of their content, such as `<header>`, `<nav>`, `<section>`, `<article>`, and `<footer>`. Non-semantic elements such as `<div>` and `<span>` do not describe the meaning of their content.
-
-**Algorithm:**
-
-1. Identify the purpose of each section.
-2. Select a suitable semantic element when possible.
-3. Use non-semantic elements when a specific semantic element is not appropriate.
-4. Organize the webpage structure clearly.
-
-### 6. JavaScript Basics
-
-JavaScript adds logic and interaction to webpages. It can respond to user actions, process information, and change webpage content dynamically.
-
-**Algorithm:**
-
-1. Identify the required interaction or problem.
-2. Select the required HTML elements.
-3. Create a JavaScript function or event.
-4. Process the required input.
-5. Display or update the result on the webpage.
-
-### 7. User Input and Validation
-
-Input validation checks whether information entered by a user follows the required format before it is processed.
-
-**Algorithm:**
-
-1. Receive input from the user.
-2. Check whether the required field is filled.
-3. Verify the input format.
-4. Display an error if the input is invalid.
-5. Continue processing when the input is valid.
-
-## Repository Purpose
-
-The main purpose of this repository is to practice web technology concepts through small programs and exercises. Each practice focuses on understanding the **concept, implementation, and basic algorithm** behind web development.
+---
+*Maintained by [AyeshaHejazi](https://github.com/AyeshaHejazi)*
