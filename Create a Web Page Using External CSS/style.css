@@ -1,0 +1,31 @@
+body{
+    background-color: #f0f8ff;
+    font-family: Arial;
+}
+
+.container{
+    width: 60%;
+    margin: 100px auto;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+h1{
+    color: darkblue;
+}
+
+p{
+    color: #444;
+    font-size: 18px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
