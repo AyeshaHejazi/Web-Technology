@@ -33,7 +33,7 @@ Quick-reference notes for each core web technology. Each note follows: **Concept
 
 | Topic | Link |
 |---|---|
-| HTML | [notes/html-notes.md](./notes/html-notes.md) |
+| HTML | [notes/html-notes.md]([./notes/html-notes.md](https://github.com/AyeshaHejazi/Web-Technology/commit/2d5890ee274e3555e85acafa591e0a2ddb3fae4c)) |
 | CSS | [notes/css-notes.md](./notes/css-notes.md) |
 | JavaScript | [notes/javascript-notes.md](./notes/javascript-notes.md) |
 | JSON | [notes/json-notes.md](./notes/json-notes.md) |
